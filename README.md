@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bf3915a8-5bdf-4e8f-a32d-22d6ef37794c/deploy-status)](https://app.netlify.com/sites/wizardly-knuth-6ca0c0/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bf3915a8-5bdf-4e8f-a32d-22d6ef37794c/deploy-status)](https://app.netlify.com/sites/superkael-final-project/deploys)
 
 # Acme Blogs
 
