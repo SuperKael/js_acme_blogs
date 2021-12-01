@@ -102,7 +102,7 @@ async function getUserPosts(userId) {
     try {
         return (await fetch(`https://jsonplaceholder.typicode.com/posts?userId=${userId}`)).json();
     } catch (e) {
-        console.log(`Error fetching user data for user ${userId} from jsonplaceholder.typicode.com: ` + e);
+        console.log(`Error fetching user posts for user ${userId} from jsonplaceholder.typicode.com: ` + e);
     }
 }
 
@@ -120,7 +120,7 @@ async function getPostComments(postId) {
     try {
         return (await fetch(`https://jsonplaceholder.typicode.com/comments?postId=${postId}`)).json();
     } catch (e) {
-        console.log(`Error fetching user data for user ${postId} from jsonplaceholder.typicode.com: ` + e);
+        console.log(`Error fetching post comments for post ${postId} from jsonplaceholder.typicode.com: ` + e);
     }
 }
 
