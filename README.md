@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bf3915a8-5bdf-4e8f-a32d-22d6ef37794c/deploy-status)](https://app.netlify.com/sites/wizardly-knuth-6ca0c0/deploys)
+
 # Acme Blogs
 
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/gitdagray/js_acme_blogs)
