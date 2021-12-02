@@ -192,9 +192,9 @@ async function displayPosts(postsJson) {
         let mainElement = document.getElementsByTagName("main")[0]
         deleteChildElements(mainElement);
         mainElement.append(element);
-        if (postsJson && postsJson.length > 0) {              // This if block exists just to make the 4th and final test for displayPosts pass.
-            let tempElem = document.createElement("article"); // This is not needed for the sake of the site's functionality, and ideally wouldn't exist.
-            mainElement.append(tempElem);
+        if (postsJson && postsJson.length > 0) {              // This if block exists just to make the 4th and final test
+            let tempElem = document.createElement("article"); // for displayPosts pass. This is not needed for the sake of the site's
+            mainElement.append(tempElem);                     // functionality, and ideally would not exist at all.
             delayRemoveElem(tempElem, 100);
         }
     }
