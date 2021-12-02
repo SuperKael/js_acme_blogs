@@ -156,7 +156,7 @@ async function createPosts(postsJson) {
 }
 
 async function displayPosts(postsJson) {
-    let element = postsJson ? await createPosts(postsJson) : createElemWithText("p", "Select an Employee to display their posts.", "default-text");
+    let element = postsJson && postsJson.length > 0 ? await createPosts(postsJson) : createElemWithText("p", "Select an Employee to display their posts.", "default-text");
     document.getElementsByTagName("main")[0].append(element);
     return element;
 }
