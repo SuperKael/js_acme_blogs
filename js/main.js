@@ -173,7 +173,6 @@ async function refreshPosts(postsJson) {
 }
 
 async function selectMenuChangeEventHandler(event) {
-    console.log("change!");
     let userId = event?.target?.value || 1;
     let posts = await getUserPosts(userId);
     return [userId, posts, await refreshPosts(posts)]
